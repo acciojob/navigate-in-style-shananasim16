@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Bar</title>
     <style>
-        /* Style for the navigation bar */
-        ul.nav-bar {
+        /* Styles for the navigation bar */
+        .navbar {
             background-color: #D3D3D3;
             padding: 10px;
-            list-style: none;
         }
 
-        /* Style for the list items in the navigation bar */
-        ul.nav-bar li {
+        /* Style for the list items */
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar li {
             display: inline;
             margin-right: 1rem;
         }
     </style>
 </head>
 <body>
-    <ul class="nav-bar">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact Us</li>
-        <li>Itinerary</li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Itinerary</a></li>
+        </ul>
+    </div>
 </body>
 </html>
